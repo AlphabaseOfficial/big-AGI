@@ -59,7 +59,7 @@ Note: After the V2 release in Q4, `v2-dev` will become the default branch and `v
 
 #### 4,000 Commits Milestone · December 7, 2024
 
-![alpha-AGI Milestone](https://github.com/AlphabaseOfficial/alpha-AGI.git/assets/32999/47fddbb1-9bd6-4b58-ace4-781dfcb80923)
+![alpha-AGI Milestone](https://github-production-user-asset-6210df.s3.amazonaws.com/32999/320314844-47fddbb1-9bd6-4b58-ace4-781dfcb80923.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250101%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250101T125538Z&X-Amz-Expires=300&X-Amz-Signature=1c80987a5b20105663018413c210c03d69c1eb24d2060646a846916579222c25&X-Amz-SignedHeaders=host)
 
 - 🥇 Today we <b>celebrate commit 4000</b> in just over one year, and going stronger 🚀
 - 📢️ Thanks everyone for your support and words of love for Alpha-AGI, we are committed to creating the best AI experiences for everyone.
