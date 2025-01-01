@@ -1,6 +1,6 @@
 {
-  "name": "big-AGI",
-  "short_name": "big-AGI",
+  "name": "alpha-AGI",
+  "short_name": "alpha-AGI",
   "theme_color": "#32383E",
   "background_color": "#9FA6AD",
   "description": "Your Generative AI Suite",
@@ -35,7 +35,7 @@
     {
       "action": "/link/share_target",
       "accept": {
-        "application/big-agi": [
+        "application/alpha-agi": [
           ".agi",
           ".agi.json"
         ]

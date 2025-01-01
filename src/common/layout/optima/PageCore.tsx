@@ -11,7 +11,7 @@ import { OptimaBar } from '~/common/layout/optima/bar/OptimaBar';
 
 
 const pageCoreSx: SxProps = {
-  // background: 'url(/images/big-agi-background-3.png) no-repeat center bottom fixed',
+  // background: 'url(/images/alpha-agi-background-3.png) no-repeat center bottom fixed',
   backgroundColor: themeBgApp,
   height: '100dvh',
   display: 'flex', flexDirection: 'column',

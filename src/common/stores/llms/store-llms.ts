@@ -201,7 +201,8 @@ export const useModelsStore = create<LlmsState & LlmsActions>()(persist(
     /* versioning:
      *  1: adds maxOutputTokens (default to half of contextTokens)
      *  2: large changes on all LLMs, and reset chat/fast/func LLMs
-     *  3: big-AGI v2
+     *  3: alpha-AGI v2
+     *  4: migrate .options to .initialParameters/.userParameters
      */
     version: 3,
     migrate: (_state: any, fromVersion: number): LlmsState => {
@@ -226,9 +227,23 @@ export const useModelsStore = create<LlmsState & LlmsActions>()(persist(
         state.fastLLMId = null;
       }
 
-      // 2 -> 3: big-AGI v2: update all models for pricing info
-      if (fromVersion < 3)
-        state.llms.forEach(portModelPricingV2toV3);
+      // 2 -> 3: alpha-AGI v2: update all models for pricing info
+      if (fromVersion < 3) {
+        try {
+          state.llms.forEach(portModelPricingV2toV3);
+        } catch (error) {
+          // ... if there's any error, ignore - shall be okay
+        }
+      }
+
+      // 3 -> 4: migrate .options to .initialParameters/.userParameters
+      if (fromVersion < 4) {
+        try {
+          state.llms.forEach(_port_V3Options_to_V4Parameters_inline);
+        } catch (error) {
+          // ... if there's any error, ignore - shall be okay
+        }
+      }
 
       return state;
     },

@@ -76,7 +76,7 @@ function TableRenderer({ children, node, ...props }: TableRendererProps) {
       {/* Download CSV link and Copy Markdown Button */}
       {tableData?.length >= 1 && (
         <Box sx={{ mb: 2, display: 'flex', alignItems: 'center', gap: 1 }}>
-          <CSVLink filename='big-agi-table.csv' data={tableData}>
+          <CSVLink filename='alpha-agi-table.csv' data={tableData}>
             <Button
               variant='outlined'
               color='neutral'

@@ -230,7 +230,7 @@ export const llmOpenAIRouter = createTRPCRouter({
         response_format: config.responseFormat,
         size: config.size,
         style: config.style,
-        user: 'big-AGI',
+        user: 'alpha-AGI',
       };
 
       // [LocalAI] Fix: LocalAI does not want the 'response_format' field
