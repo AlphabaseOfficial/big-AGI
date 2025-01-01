@@ -16,7 +16,7 @@ export const Release = {
   App: {
     pl: 'v2-dev',
     versionCode: '2.0.0-ea1',       // 1.91.0 sequentially...
-    versionName: 'Big-AGI V2 EA1',
+    versionName: 'Alpha-AGI V2 EA1',
   },
 
   // Future compatibility

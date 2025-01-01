@@ -68,8 +68,8 @@ export function AppChatSettingsAI() {
             SECURITY WARNING: THIS TURNS ON JS/HTML CODE EXECUTION WITHIN CHAT MESSAGES
             <hr />
             Alpha quality, for testing only. Does not include state synchronization. Use at your own risk.
-            {' - '}<ExternalLink icon='issue' href='https://github.com/enricoros/big-agi/issues/227'>#227</ExternalLink>
-            {', '}<ExternalLink icon='issue' href='https://github.com/enricoros/big-agi/issues/228'>#228</ExternalLink>
+            {' - '}<ExternalLink icon='issue' href='https://github.com/enricoros/alpha-agi/issues/227'>#227</ExternalLink>
+            {', '}<ExternalLink icon='issue' href='https://github.com/enricoros/alpha-agi/issues/228'>#228</ExternalLink>
           </>}>
             <WarningRoundedIcon sx={{ cursor: 'pointer', color: autoSuggestHTMLUI ? 'red' : 'orangered' }} />
           </GoodTooltip>
@@ -83,7 +83,7 @@ export function AppChatSettingsAI() {
     {/*<FormControl disabled orientation='horizontal' sx={{ justifyContent: 'space-between' }}>*/}
     {/*  <FormLabelStart title='Auto Questions'*/}
     {/*                  description={autoSuggestQuestions ? 'LLM Questions' : 'No'}*/}
-    {/*                  tooltip={<>Vote <Link href='https://github.com/enricoros/big-agi/issues/228' target='_blank'>#228</Link></>} />*/}
+    {/*                  tooltip={<>Vote <Link href='https://github.com/enricoros/alpha-agi/issues/228' target='_blank'>#228</Link></>} />*/}
     {/*  <Switch checked={autoSuggestQuestions} onChange={handleAutoSuggestQuestionsChange}*/}
     {/*          endDecorator={autoSuggestQuestions ? 'On' : 'Off'}*/}
     {/*          slotProps={{ endDecorator: { sx: { minWidth: 26 } } }} />*/}

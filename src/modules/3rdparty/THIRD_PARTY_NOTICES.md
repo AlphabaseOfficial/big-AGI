@@ -24,12 +24,12 @@ Portions of this project are derived from **Aider**, specifically:
 
 - Base prompts and variables for code editing functionality.
 - Prompt templates for code editing and whole file modifications.
-- The prompts have been translated from Python to JavaScript and adapted for use in the Big-AGI project.
+- The prompts have been translated from Python to JavaScript and adapted for use in the Alpha-AGI project.
 
 ### Modifications
 
 - Translated from Python to JavaScript.
-- Adjusted prompts to fit the context and functionality of the Big-AGI project.
+- Adjusted prompts to fit the context and functionality of the Alpha-AGI project.
 - Organized the derived code within the `src/modules/3rdparty/aider/` directory for modularity.
 
 **Note:** The inclusion of Aider code in this project is solely for enhancing the code-diff functionality. All obligations under the Apache License 2.0 are acknowledged and fulfilled. Users are advised to review the license terms provided.

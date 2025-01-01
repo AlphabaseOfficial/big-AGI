@@ -114,7 +114,7 @@ export function AppNews() {
             const addPadding = false; //!firstCard; // || showExpander;
             return <React.Fragment key={idx}>
 
-              {/* Inject the Big-AGI 2.0 item here*/}
+              {/* Inject the Alpha-AGI 2.0 item here*/}
               {idx === 0 && (
                 <Box sx={{ mb: 3 }}>
                   {bigAgi2NewsCallout}

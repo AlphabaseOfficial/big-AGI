@@ -90,7 +90,7 @@ export const env = createEnv({
     HTTP_BASIC_AUTH_PASSWORD: z.string().optional(),
 
     // Build-time configuration (ignore)
-    BIG_AGI_BUILD: z.enum(['standalone', 'static']).optional(),
+    ALPHA_AGI_BUILD: z.enum(['standalone', 'static']).optional(),
 
   },
 
@@ -115,7 +115,7 @@ export const env = createEnv({
     throw new Error('Invalid environment variable');
   },
 
-  // matches user expectations - see https://github.com/enricoros/big-AGI/issues/279
+  // matches user expectations - see https://github.com/enricoros/alpha-AGI/issues/279
   emptyStringAsUndefined: true,
 
   // with Noext.JS >= 13.4.4 we'd only need to destructure client variables

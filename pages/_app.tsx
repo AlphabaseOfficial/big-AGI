@@ -24,7 +24,7 @@ import { SnackbarInsert } from '~/common/components/snackbar/SnackbarInsert';
 import { hasGoogleAnalytics, OptionalGoogleAnalytics } from '~/common/components/GoogleAnalytics';
 
 
-const Big_AGI_App = ({ Component, emotionCache, pageProps }: MyAppProps) => {
+const Alpha_AGI_App = ({ Component, emotionCache, pageProps }: MyAppProps) => {
 
   // We are using a nextjs per-page layout pattern to bring the (Optima) layout creation to a shared place
   // This reduces the flicker and the time switching between apps, and seems to not have impact on
@@ -59,4 +59,4 @@ const Big_AGI_App = ({ Component, emotionCache, pageProps }: MyAppProps) => {
 };
 
 // Initializes React Query and tRPC, and enables the tRPC React Query hooks (apiQuery).
-export default apiQuery.withTRPC(Big_AGI_App);
+export default apiQuery.withTRPC(Alpha_AGI_App);

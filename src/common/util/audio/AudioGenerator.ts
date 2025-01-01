@@ -347,7 +347,7 @@ export namespace AudioGenerator {
   }
 
 
-  // Big-AGI Sounds
+  // Alpha-AGI Sounds
 
   export function chatAutoSend(options: SoundOptions = {}) {
     const ctx = singleContext();

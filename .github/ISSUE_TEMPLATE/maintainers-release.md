@@ -9,17 +9,17 @@ assignees: enricoros
 
 ## Release checklist:
 
-- [x] Create a new [Release Issue](https://github.com/enricoros/big-AGI/issues/new?assignees=enricoros&projects=enricoros/4&template=maintainers-release.md&title=Release+1.2.3)
+- [x] Create a new [Release Issue](https://github.com/enricoros/alpha-AGI/issues/new?assignees=enricoros&projects=enricoros/4&template=maintainers-release.md&title=Release+1.2.3)
   - [ ] Replace 1.1.0 with the _former_ release, and _1.2.3_ with THIS
 - [ ] Update the [Roadmap](https://github.com/users/enricoros/projects/4/views/2) calling out shipped features
-- [ ] Create and update a [Milestone](https://github.com/enricoros/big-agi/milestones) for the release
+- [ ] Create and update a [Milestone](https://github.com/enricoros/alpha-agi/milestones) for the release
   - [ ] Assign this task
   - [ ] Assign all the shipped roadmap Issues
-  - [ ] Assign the relevant [recently closed Isssues](https://github.com/enricoros/big-agi/issues?q=is%3Aclosed+sort%3Aupdated-desc)
+  - [ ] Assign the relevant [recently closed Isssues](https://github.com/enricoros/alpha-agi/issues?q=is%3Aclosed+sort%3Aupdated-desc)
 - Code changes:
   - [ ] Create a release branch 'release-x.y.z': `git checkout -b release-1.2.3`
   - [ ] Create a temporary tag `git tag v1.2.3 && git push opensource --tags`
-  - [ ] Create a [New Draft GitHub Release](https://github.com/enricoros/big-agi/releases/new), and generate the automated changelog (for new contributors)
+  - [ ] Create a [New Draft GitHub Release](https://github.com/enricoros/alpha-agi/releases/new), and generate the automated changelog (for new contributors)
   - [ ] Update the release version in package.json, and `npm i`
   - [ ] Update the in-app News version number
   - [ ] Update in-app News [src/apps/news/news.data.tsx](/src/apps/news/news.data.tsx)
@@ -39,19 +39,19 @@ assignees: enricoros
 
 ### Links
 
-- Milestone: https://github.com/enricoros/big-AGI/milestone/X
-- GitHub release: https://github.com/enricoros/big-AGI/releases/tag/v1.2.3
+- Milestone: https://github.com/enricoros/alpha-AGI/milestone/X
+- GitHub release: https://github.com/enricoros/alpha-AGI/releases/tag/v1.2.3
 - Former release task: #...
 
 ## Artifacts Generation
 
 ```markdown
-You help me generate the following collateral for the new release of my opensource application called big-AGI. The new release is 1.2.3.
+You help me generate the following collateral for the new release of my opensource application called alpha-AGI. The new release is 1.2.3.
 To familiarize yourself with the application, the following are the Website and the GitHub README.md.
 ```
 
-- paste the URL: https://big-agi.com
-- drag & drop: [README.md](https://raw.githubusercontent.com/enricoros/big-AGI/v2-dev/README.md)
+- paste the URL: https://alpha-agi.com
+- drag & drop: [README.md](https://raw.githubusercontent.com/enricoros/alpha-AGI/v2-dev/README.md)
 
 ```markdown
 I am announcing a new version, 1.2.3.
@@ -88,7 +88,7 @@ I need the following from you:
 ### release name
 
 ```markdown
-please brainstorm 10 different names for this release. see the former names here: https://big-agi.com/blog
+please brainstorm 10 different names for this release. see the former names here: https://alpha-agi.com/blog
 ```
 
 You can follow with 'What do you think of Modelmorphic?' or other selected name
@@ -127,6 +127,6 @@ some stats (# of commits, etc.), and roll it for the new release.
 ### Discord announcement
 
 ```markdown
-Can you generate my 1.2.3 big-AGI discord announcement from the GitHub Release announcement?
+Can you generate my 1.2.3 alpha-AGI discord announcement from the GitHub Release announcement?
 Please keep the formatting and stye of the discord announcement for 1.1.0, but with the new messaging above.
 ```
