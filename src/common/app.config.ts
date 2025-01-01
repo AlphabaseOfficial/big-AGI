@@ -23,7 +23,7 @@ export const Brand = {
     CardImage: '',
     OpenRepo: 'https://github.com/AlphabaseOfficial/alpha-AGI',
     OpenProject: 'https://github.com/AlphabaseOfficial/alpha-AGI',
-    SupportInvite: 'https://discord.gg/MkH4qj2Jp9',
+    SupportInvite: '#',
     // Twitter: 'https://www.twitter.com/enricoros',
     PrivacyPolicy: 'https://alphabase.co/privacy',
     TermsOfService: 'https://alphabase.co/terms',
