@@ -24,7 +24,7 @@ add your own models, or run your own instance, follow the steps below.
 
 1. Clone the alpha-AGI repository:
    ```bash
-   git clone https://github.com/enricoros/alpha-AGI.git
+   git clone https://github.com/AlphabaseOfficial/alpha-AGI.git
    cd alpha-AGI
    ```
 2. Install dependencies:
@@ -107,7 +107,7 @@ Deploy alpha-AGI on a Kubernetes cluster for enhanced scalability and management
 
 1. Clone the alpha-AGI repository:
    ```bash
-   git clone https://github.com/enricoros/alpha-AGI.git
+   git clone https://github.com/AlphabaseOfficial/alpha-AGI.git
    cd alpha-AGI
    ```
 
@@ -146,11 +146,6 @@ for your host OS. After completing the setup process, install the ALPHA-AGI dock
 For businesses seeking a fully-managed, scalable solution, consider our managed installations.
 Enjoy all the features of alpha-AGI without the hassle of infrastructure management. [hello@alphabase.co](mailto:hello@alphabase.co) to learn more.
 
-## Support
 
-Join our vibrant community of developers, researchers, and AI enthusiasts. Share your projects, get help, and collaborate with others.
-
-- [Discord Community](https://discord.gg/MkH4qj2Jp9)
-- [Twitter](https://twitter.com/yourusername)
 
 For any questions or inquiries, please don't hesitate to [reach out to our team](mailto:hello@alphabase.co).
