@@ -152,7 +152,7 @@ For full details and former releases, check out the [changelog](docs/changelog.m
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------| 
 | **Chat**<br/>**Call**<br/>**Beam**<br/>**Draw**, ...                                                          | Local & Cloud<br/>Open & Closed<br/>Cheap & Heavy<br/>Google, Mistral, ...                                              | Attachments<br/>Diagrams<br/>Multi-Chat<br/>Mobile-first UI                                                          | Stored Locally<br/>Easy self-Host<br/>Local actions<br/>Data = Gold                                                    | AI Personas<br/>Voice Modes<br/>Screen Capture<br/>Camera + OCR                                                      |
 
-![alpha-AGI screenshot](docs/pixels/alpha-AGI-compo-20240201_small.png)
+![alpha-AGI screenshot](docs/pixels/big-AGI-compo-20240201_small.png)
 
 You can easily configure 100s of AI models in alpha-AGI:
 
