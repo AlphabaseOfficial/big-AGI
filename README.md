@@ -211,8 +211,8 @@ Or bring your API keys and jump straight into our free instance on [alphabase.co
 
 # 🌟 Get Involved!
 
-[//]: # ([![Official Discord]&#40;https://img.shields.io/discord/1098796266906980422?label=discord&logo=discord&logoColor=%23fff&style=for-the-badge&#41;]&#40;#;)
-[![Official Discord](https://discordapp.com/api/guilds/1098796266906980422/widget.png?style=banner2)](#)
+<!-- [//]: # ([![Official Discord]&#40;https://img.shields.io/discord/1098796266906980422?label=discord&logo=discord&logoColor=%23fff&style=for-the-badge&#41;]&#40;#;)
+[![Official Discord](https://discordapp.com/api/guilds/1098796266906980422/widget.png?style=banner2)](#) -->
 
 <!-- - [ ] 📢️ [**Chat with us** on Discord](https://discord.gg/MkH4qj2Jp9) -->
 - [ ] ⭐ **Give us a star** on GitHub 👆
