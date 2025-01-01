@@ -111,7 +111,7 @@ export const useUIPreferencesStore = create<UIPreferencesStore>()(
 
       /* versioning:
        * 1: rename 'enterToSend' to 'enterIsNewline' (flip the meaning)
-       * 2: new Big-AGI 2 defaults
+       * 2: new Alpha-AGI 2 defaults
        */
       version: 2,
 
@@ -121,7 +121,7 @@ export const useUIPreferencesStore = create<UIPreferencesStore>()(
         if (state && fromVersion < 1)
           state.enterIsNewline = state['enterToSend'] === false;
 
-        // 2: new Big-AGI 2 defaults
+        // 2: new Alpha-AGI 2 defaults
         if (state && fromVersion < 2) {
           state.contentScaling = 'sm';
           state.doubleClickToEdit = false;

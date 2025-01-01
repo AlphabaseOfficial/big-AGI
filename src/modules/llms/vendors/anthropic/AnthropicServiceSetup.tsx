@@ -48,7 +48,7 @@ export function AnthropicServiceSetup(props: { serviceId: DModelsServiceId }) {
 
   return <>
 
-    <ApproximateCosts serviceId={service?.id} whoSaved='Big-AGI saved you'>
+    <ApproximateCosts serviceId={service?.id} whoSaved='Alpha-AGI saved you'>
       <Alert variant='soft' color='success'>
         <div>
           Enjoy <b>Sonnet 3.5</b>, <b>Opus</b> and <b>Haiku 3</b>. Anthropic <ExternalLink level='body-sm' href='https://status.anthropic.com/'>server status</ExternalLink>.
@@ -90,7 +90,7 @@ export function AnthropicServiceSetup(props: { serviceId: DModelsServiceId }) {
     {advanced.on && <FormTextField
       autoCompleteId='anthropic-host'
       title='API Host'
-      description={<>e.g., <Link level='body-sm' href='https://github.com/enricoros/big-agi/blob/main/docs/config-aws-bedrock.md' target='_blank'>bedrock-claude</Link></>}
+      description={<>e.g., <Link level='body-sm' href='https://github.com/enricoros/alpha-agi/blob/main/docs/config-aws-bedrock.md' target='_blank'>bedrock-claude</Link></>}
       placeholder='deployment.service.region.amazonaws.com'
       isError={false}
       value={anthropicHost || ''}

@@ -4,7 +4,7 @@ import type { DBlobAsset, DBlobAssetId, DBlobAssetType, DBlobDBAsset, DBlobDBCon
 
 
 /**
- * Dexie DB for Big-AGI
+ * Dexie DB for Alpha-AGI
  * - assets: we store large assets like images/audio/video/documents...
  *
  * [DEV NOTE] To delete the full DB (don't do it!):
@@ -18,7 +18,7 @@ class BigAgiDB extends Dexie {
   largeAssets!: Dexie.Table<DBlobDBAsset, string>;
 
   constructor() {
-    super('Big-AGI');
+    super('Alpha-AGI');
     this.version(1).stores({
       // Index common properties (and compound indexes)
       largeAssets: 'id, [contextId+scopeId], assetType, [assetType+contextId+scopeId], data.mimeType, origin.ot, origin.source, createdAt, updatedAt',

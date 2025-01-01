@@ -57,11 +57,11 @@ export const NewsItems: NewsItem[] = [
     versionName: Release.App.versionName,
     versionDate: new Date('2024-10-15T01:00:00Z'),
     items: [
-      { text: <>You&apos;re running an <B>unsupported Early Access</B> build of Big-AGI V2. This version is used by developers to implement long-term breaking features.</> },
+      { text: <>You&apos;re running an <B>unsupported Early Access</B> build of Alpha-AGI V2. This version is used by developers to implement long-term breaking features.</> },
       { text: <>This branch previews experimental features that are subject to change and may break without notice.</> },
       { text: <>Please report screenshots of breakages and console error messages.</> },
       { text: <>Please note that this is not the official release.</> },
-      { text: <>For stable releases: <ExternalLink href='https://big-agi.com'>big-agi.com</ExternalLink>.</> },
+      { text: <>For stable releases: <ExternalLink href='https://alpha-agi.com'>alpha-agi.com</ExternalLink>.</> },
     ],
   },
   {
@@ -89,7 +89,7 @@ export const NewsItems: NewsItem[] = [
       { text: <>1.16.6: Groq <B>Llama 3.1</B> support</> },
       { text: <>1.16.7: Gpt-4o <B>2024-08-06</B></> },
       { text: <>1.16.8: <B>ChatGPT-4o</B> latest</> },
-      { text: <>OpenAI <B>o1</B> and newer models require Big-AGI 2. <B href='https://y2rjg0zillz.typeform.com/to/ZSADpr5u?utm_source=gh-2&utm_medium=news&utm_campaign=ea2'>Sign up here</B></> },
+      { text: <>OpenAI <B>o1</B> and newer models require Alpha-AGI 2. <B href='https://y2rjg0zillz.typeform.com/to/ZSADpr5u?utm_source=gh-2&utm_medium=news&utm_campaign=ea2'>Sign up here</B></> },
     ],
   },
   {
@@ -218,8 +218,8 @@ export const NewsItems: NewsItem[] = [
       { text: <><B>Single-Tab</B> mode, enhances data integrity and prevents DB corruption</> },
       { text: <>Updated Ollama (v0.1.17) and OpenRouter models</> },
       { text: <>More: fixed ⌘ shortcuts on Mac</> },
-      { text: <><Link href='https://big-agi.com'>Website</Link>: official downloads</> },
-      { text: <>Easier Vercel deployment, documented <Link href='https://github.com/enricoros/big-AGI/issues/276#issuecomment-1858591483'>network troubleshooting</Link></>, dev: true },
+      { text: <><Link href='https://alpha-agi.com'>Website</Link>: official downloads</> },
+      { text: <>Easier Vercel deployment, documented <Link href='https://github.com/enricoros/alpha-AGI/issues/276#issuecomment-1858591483'>network troubleshooting</Link></>, dev: true },
     ],
   },
   {

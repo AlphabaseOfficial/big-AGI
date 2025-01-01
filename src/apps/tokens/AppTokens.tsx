@@ -36,7 +36,7 @@ export function AppTokens() {
   //     return;
   //   const timer = setTimeout(() => {
   //     if (!text) {
-  //       setText('Big-AGI\n\nIntelligence is a stream of tokens.');
+  //       setText('Alpha-AGI\n\nIntelligence is a stream of tokens.');
   //     }
   //   }, 10000);
   //   return () => clearTimeout(timer);

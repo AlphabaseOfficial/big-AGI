@@ -2,29 +2,29 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: ns-big-agi
+  name: ns-alpha-agi
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: big-agi
-  name: deployment-big-agi
-  namespace: ns-big-agi
+    app: alpha-agi
+  name: deployment-alpha-agi
+  namespace: ns-alpha-agi
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: big-agi
+      app: alpha-agi
   strategy: {}
   template:
     metadata:
       labels:
-        app: big-agi
+        app: alpha-agi
     spec:
       containers:
-        - image: ghcr.io/enricoros/big-agi:latest
-          name: big-agi
+        - image: ghcr.io/enricoros/alpha-agi:latest
+          name: alpha-agi
           ports:
             - containerPort: 3000
           args:
@@ -40,13 +40,13 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: big-agi
-  name: svc-big-agi
-  namespace: ns-big-agi
+    app: alpha-agi
+  name: svc-alpha-agi
+  namespace: ns-alpha-agi
 spec:
   ports:
     - name: "http"
       port: 3000
       targetPort: 3000
   selector:
-    app: big-agi
+    app: alpha-agi
