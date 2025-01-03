@@ -1,6 +1,6 @@
 import * as React from 'react';
 import dynamic from 'next/dynamic';
-import { RedirectToSignIn, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
+import { OrganizationSwitcher, RedirectToSignIn, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 
 
 const enableClerk = !!process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
@@ -32,5 +32,10 @@ export const ProviderAuth = (props: { children: React.ReactNode }) => (enableCle
 export const authUserButton = (enableClerk && ClerkProviderDynamic)
   ? <>
     <UserButton />
+  </>
+  : null;
+export const authOrganizationSwitcher = (enableClerk && ClerkProviderDynamic)
+  ? <>
+    <OrganizationSwitcher />
   </>
   : null;
