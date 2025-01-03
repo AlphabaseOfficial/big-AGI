@@ -12,3 +12,11 @@
     height: 27px;
     margin-bottom: 5px;
 }
+.cl-userPreviewTextContainer__personalWorkspace{
+    display: none;
+}
+.cl-userPreviewAvatarBox{
+    width: 27px;
+    height: 27px;
+    margin-bottom: 5px; 
+}
