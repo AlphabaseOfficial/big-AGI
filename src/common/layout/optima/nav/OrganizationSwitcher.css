@@ -12,7 +12,7 @@
     height: 27px;
     margin-bottom: 5px;
 }
-.cl-userPreviewTextContainer__personalWorkspace{
+.cl-organizationSwitcherTrigger > .cl-userPreview__personalWorkspace > .cl-userPreviewTextContainer__personalWorkspace{
     display: none;
 }
 .cl-userPreviewAvatarBox{
